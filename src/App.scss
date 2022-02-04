@@ -1,5 +1,6 @@
 @import './styles/Header.scss';
 @import './styles/Signup.scss';
+@import 'styles/account.scss';
 
 .App {
   text-align: center;
@@ -35,7 +36,62 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.XBtn {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: #6F6E73;
+  background: #e5e5e5;
+  border: 0;
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.ant-progress-bg,
+.ant-progress-inner {
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+}
+
+.ant-progress-inner {
+  margin-top: -25px;
+}
+
+.ant-input-affix-wrapper {
+  font-size: 16px !important;
+  font-weight: 300;
+  color: #828282 !important;
+  padding: 10px 20px !important;
+  background: #FCFCFC !important;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+}
+
+.ant-progress-success-bg,
+.ant-progress-bg {
+  height: 5px !important;
+  background: #885FFF !important;
+}
+
+.otpDiv input {
+  width: 2rem !important;
+  padding: 5px !important;
 }
